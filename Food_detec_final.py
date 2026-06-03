@@ -9,7 +9,7 @@ def load_model(model_path="thai_food_modelv8.pth"):
     try:
         model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')), strict=False)
         model.eval()
-        print("โหลดโมเดลสำเร็จ")
+        print("โหลดโมเดลสำเร็จอิอิ")
     except FileNotFoundError:
         print("ไม่พบไฟล์โมเดล:", model_path)
         exit()
