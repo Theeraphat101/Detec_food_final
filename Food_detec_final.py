@@ -14,7 +14,7 @@ def load_model(model_path="thai_food_modelv8.pth"):
         print("ไม่พบไฟล์โมเดล:", model_path)
         exit()
     except Exception as e:
-        print(f"ข้อผิดพลาดในการโหลดโมเดล: {e}")
+        print(f"ข้อผิดพลาดในการโหลดโมเดล001: {e}")
         exit()
     return model
 
